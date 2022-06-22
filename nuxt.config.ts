@@ -199,6 +199,15 @@ const config: Configuration = {
     webpack: {
       poll: true
     }
+  }, 
+  router: {
+    extendRoutes(routes) {
+      routes.push(
+        { path: '/flow', redirect: '/' },
+        { path: '/worker', redirect: '/' },
+        { path: '/parent', redirect: '/' },
+      )
+    }
   }
 }
 
