@@ -137,7 +137,7 @@ export default {
         {
           title: this.$t('Nagoya COVID-19 Special Site'),
           link:
-            'https://nagoyabousai.maps.arcgis.com/apps/Cascade/index.html?appid=04c0250edfe54ae4af7f1c8755d275b5'
+            'https://nagoya-bousai.maps.arcgis.com/apps/Cascade/index.html?appid=5da3d7a15c4842fb8a46ecd93a9e644f'
         },
         {
           title: this.$t('Do not Lose To COVID-19, Nagoya(Twitter)'),
